@@ -24,6 +24,8 @@ public class OrderApplication {
     @LoadBalanced
     public RestTemplate restTemplate(){
         System.out.println("push nihao ");
+        System.out.println(" pull 你好 ");
+        
 
         return new RestTemplate();
     }
