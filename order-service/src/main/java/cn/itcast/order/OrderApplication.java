@@ -23,6 +23,7 @@ public class OrderApplication {
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(){
+        System.out.println("push nihao ");
 
         return new RestTemplate();
     }
